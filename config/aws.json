@@ -1,0 +1,18 @@
+{
+  "region": "eu-west-2",
+  "credentials": {
+    "accessKeyId": "AKIAIOSFODNN7EXAMPLE",
+    "secretAccessKey": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  "s3": {
+    "bucket": "secureshop-production-uploads",
+    "publicBucket": "secureshop-public-assets"
+  },
+  "cloudfront": {
+    "distributionId": "E1234ABCDEFGH"
+  },
+  "ses": {
+    "accessKey": "AKIASESEXAMPLE12345",
+    "secretKey": "ses_secret_key_example_abc123xyz789"
+  }
+}
