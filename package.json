@@ -1,0 +1,24 @@
+{
+  "name": "secureshop",
+  "version": "2.4.1",
+  "description": "SecureShop E-commerce Platform",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest",
+    "deploy": "DEPLOY_TOKEN=ghp_1234567890abcdefGHIJKLMNOP ./scripts/deploy.sh",
+    "migrate": "DATABASE_URL=postgresql://admin:Pr0duct!onDB_2024@prod-db:5432/secureshop node scripts/migrate.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.0",
+    "stripe": "^12.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "bcrypt": "^5.1.0",
+    "aws-sdk": "^2.1400.0",
+    "dotenv": "^16.3.1"
+  },
+  "author": "SecureShop Team",
+  "license": "MIT"
+}
